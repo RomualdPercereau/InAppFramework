@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		555A3BAC1BCBF8E300FD9E58 /* InAppFw.h in Headers */ = {isa = PBXBuildFile; fileRef = 555A3BAB1BCBF8E300FD9E58 /* InAppFw.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		555A3BB31BCBF8E300FD9E58 /* InAppFw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555A3BA81BCBF8E300FD9E58 /* InAppFw.framework */; settings = {ASSET_TAGS = (); }; };
+		555A3BB31BCBF8E300FD9E58 /* InAppFw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555A3BA81BCBF8E300FD9E58 /* InAppFw.framework */; };
 		555A3BB81BCBF8E300FD9E58 /* InAppFwTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A3BB71BCBF8E300FD9E58 /* InAppFwTests.swift */; };
-		555A3BC31BCBFBE900FD9E58 /* InAppFw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A3BC21BCBFBE900FD9E58 /* InAppFw.swift */; settings = {ASSET_TAGS = (); }; };
+		555A3BC31BCBFBE900FD9E58 /* InAppFw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A3BC21BCBFBE900FD9E58 /* InAppFw.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -323,6 +323,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sandorgyulai.InAppFw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -342,6 +343,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sandorgyulai.InAppFw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
